@@ -1,0 +1,66 @@
+.hero-section {
+    background: url('interior bg.jpg') center center / cover no-repeat;
+    height: 400px;
+  }
+  
+  .hero-section h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero-section p {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 3px rgba(7, 37, 12, 0.7);
+  }
+  
+  .btn-outline-primary {
+    border-color: #004917;
+    color: #005513;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  body {
+    background-color: #d6cc37; /* Replace this with your desired color */
+    margin: 0; /* Remove default margin */
+    height: 500%; /* Ensure full-page height */
+  }
+  html, body {
+    height: 100%;
+    background-color: #d4c245; /* Replace with your preferred color */
+  }
+  /* Apply background color to the entire page */
+body {
+    background-color: #d4c245; /* Replace with your preferred color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensure sections also inherit the background */
+  section {
+    background-color: transparent; /* Allow body color to show through */
+  }
+  
+  /* For padding adjustments */
+  .header, .trending, .featured {
+    padding: 20px;
+  }
+/* Style for the hero section heading */
+.hero-section h1 {
+    text-align: left; /* Align text to the left */
+    font-family: 'Georgia', serif; /* Change font style */
+    font-size: 3rem; /* Adjust font size */
+    font-weight: bold; /* Adjust weight */
+    margin-left: 10%; /* Add space from the left */
+    color: #ffffff; /* Optional: Adjust text color */
+  }
+  
+  /* Style the description text */
+  .hero-section p {
+    text-align: left; /* Align to the left */
+    font-family: 'Arial', sans-serif; /* Optional: Change font */
+    margin-left: 10%; /* Match margin with heading */
+    color: #ffffff; /* Ensure good contrast with background */
+  }
